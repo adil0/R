@@ -4,7 +4,7 @@ options("digits.secs"=3)
 options(scipen=7)
 source("/home/adil/codes/TimeFormatChanger.R")
 
-symbol <- c("VZ")
+symbol <- c("BAC")
 start_date <- "2012-09-05"
 end_date <- "2013-01-11"
 # intra-day ecovar calculation for all clusters for one symbol
