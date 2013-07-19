@@ -79,7 +79,7 @@ print(plot(master_df1$volatility,master_df1$uzPnLi,main="uzPnLi v/s last 30 mins
 print(plot(master_df1$NYSE_vol_last_30mins,master_df1$uzPnLi,main="uzPnLi v/s last 30 mins. NYSE volume after SBN move for VZ",xlab="last 30 mins. NYSE volume for VZ",ylab="uzPnLi(mils)"))
 print(plot(master_df1$NYSE_median_size_last_30mins,master_df1$uzPnLi,main="uzPnLi v/s last 30 mins. median NYSE size after SBN move for VZ",xlab="last 30 mins. median NYSE size for VZ",ylab="uzPnLi(mils)"))
 dev.off()
-
+# nkjsndkjb
 # plots for uzPnL
 pdf(file="/home/adil/work/micro_an/fig/graphs_uzPnL_VZ.pdf",width=13,height=8,title="uzPnL plots")
 print(plot(master_df$volatility,master_df$uzPnL_diff,main="uzPnL v/s last 30 mins. volatility after SBN move for VZ",xlab="last 30 mins. annualised VZ volatilty",ylab="uzPnLi($)"))
